@@ -1,0 +1,45 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url("../img/Sky.jpg") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+.landing-container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 3rem 4rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.landing-container h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.landing-container p {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.enter-button {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #ff6f91;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.enter-button:hover {
+  background-color: #ff3b6f;
+}
